@@ -1,0 +1,273 @@
+body{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+} 
+hr{
+    background-image: linear-gradient(goldenrod,gold);
+    padding: 5px;
+    box-shadow: 2px 2px 5px #2f2f2f;
+}  
+
+.isoftbet-container{
+    height: 50px;
+    position: relative;
+}
+
+.isoftbet-container #isoftbet-logo{
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner{
+    position: relative;
+    height: 700px;
+    background-image: url(../assets/bg6.png);
+    background-size: cover;
+    background-position: right;
+    /* background-attachment: fixed; */
+}
+.banner2 hr{
+    width: 40%;
+}
+.right-side,
+.left-side,
+.l-s-showcase,
+.deer-cp-mock-up-container,
+.r-s-showcase{
+    position: relative;
+}
+#banner-slot-machine{
+    position: absolute;
+    height: auto;
+    width: 125%;
+    top: 15%;
+    left: -10%;
+}
+#left-side-logo{
+    position:absolute;
+    margin-top: -15% !important;
+    left: -52%;
+    height: auto;
+    width: 200%;    
+}
+#left-side-number{
+    position: absolute;
+    margin-top: 39%;
+    width: 50%;
+    left: 23%;
+}
+.l-text-container{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    width: 50%;
+    left: 26%;
+    margin-top: 66%;
+    text-shadow: 2px 2px 5px rgba(0 , 0, 0, 0.8);
+}
+.l-text-container h1{
+    font-size: 8rem;
+}
+.l-text-container h2{
+    margin-top:-11%;
+    font-size: 4.2rem;
+}
+.banner2 p {
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.showcase1{
+    height: 500px;
+    background-image: url(../assets/bg4.png);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+#l-s-showcase1{
+    position: absolute;
+    margin-top: -10%;
+    left: -5%;
+    height: auto;
+    width: 100%;
+}
+
+#deer-cp-m-up{
+    margin-top: -5%;
+}
+.r-s-showcase-contents{
+    margin-right: 10%;
+    font-family: Impact;
+}
+.this-is-text{
+    font-family: Impact;
+}
+.game-info{
+    margin-top:25%;
+    background-image: url(../assets/bg5.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.math{
+    margin-top: 1%;
+    font-family: Impact;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.icon-container{
+    transition: .5s;
+    border-radius: 10px;
+}
+.icon-container p{
+    color: seagreen;
+    font-size: 2rem;
+}
+.icon-container:hover{
+    box-shadow: 0 0 5px #2f2f2f;
+    transition: .5s;
+}
+.links{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    color: goldenrod;
+    text-decoration: none;
+}
+#incoming-games-container hr{
+    width: 50%;
+}
+.footer{
+    background-color: black;
+}
+.contact{
+    color: goldenrod;
+}
+h3{
+    font-family: Impact;
+}
+.game-info-container{
+    padding: 3rem;
+}
+.cp-up-games-container{
+    display: none;
+}
+.pc-footer-image{
+    display: inline-block;
+    width: 100%;
+}
+.cp-footer-image{
+    display: none;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .banner{
+        background-position: right;
+    }
+    .l-text-container h1{
+        font-size: 5rem;
+    }
+    .l-text-container h2{
+        font-size: 2.5rem;
+    }
+    #banner-slot-machine{
+        margin-top: 80%;
+        left:-14%;
+    }
+    #left-side-logo{
+        width: 150%;
+        margin-left: 26%; 
+    }
+    #left-side-number{
+        margin-top: 25%;
+        width: 50%;
+        left: 23%;
+    }
+    .l-text-container{
+        margin-top: 52%;
+    }
+    .banner{
+        max-height: 570px;
+    }
+    hr{
+        width: 80%;
+    }
+    .banner2 hr{
+        width: 80%;
+    }
+    .banner2 p{
+        font-size:1rem;
+    }
+    #deer-cp-m-up{
+        width: 70%;
+    }
+    #l-s-showcase1{
+        position: relative;
+    }
+    .r-s-showcase-contents{
+        text-align: center;
+        font-family: Impact;
+        margin-right: 0%;
+    }
+    .r-s-showcase-contents h3{
+        font-size: 1.5rem;
+    }
+    .showcase1{
+        height: 550px;
+        background-position: center;
+    }
+    .this-is-text{
+        margin-top: 0% !important;
+    }
+    .game-info{
+        margin-top:260%;
+        background-image: url(../assets/bg5.png);
+        background-size: contain;
+        background-position: center;
+        background-attachment: none;
+    }
+    .game-info-container{
+        padding: 1rem !important;
+    }
+    .game-info-container ul li {
+        font-size: .8rem;
+    }
+    iframe {
+        width: 100% !important;
+    }
+    #incoming-games-container hr{
+        width: 85%;
+    }
+    .up-games-container{
+        display: none;
+    }
+    .cp-up-games-container{
+        display: inline-block;
+    }
+    .cp-up-games-container div img{
+        width: 300px;
+        margin-top: 10px;
+    }
+    .pc-footer-image{
+        display: none;
+    }
+    .cp-footer-image{
+        display: inline-block;
+        margin-top: -10%;
+    }
+    .game-info div h3 {
+        text-align: center;
+    }
+}
